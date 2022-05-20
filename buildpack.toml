@@ -1,0 +1,11 @@
+api = "0.4"
+
+[buildpack]
+id = "mars/create-react-app-buildpack"
+version = "1.0"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
